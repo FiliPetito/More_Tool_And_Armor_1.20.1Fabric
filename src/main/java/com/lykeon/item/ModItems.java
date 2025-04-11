@@ -11,7 +11,7 @@ public class ModItems {
 
     public static final Item IRON_HAMMER = registerItem("iron_hammer", new Item(new Item.Settings().maxCount(1)));
 
-    //// Utensili
+    // Utensili
     public static final Item COPPER_SWORD = registerItem("copper_sword",
             new SwordItem(ModToolMaterials.COPPER, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.COPPER, 3, -2.4F))));

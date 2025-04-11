@@ -1,5 +1,6 @@
 package com.lykeon;
 
+import com.lykeon.component.ModDataComponentTypes;
 import com.lykeon.utils.ModItemGroups;
 import com.lykeon.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -24,5 +25,7 @@ public class MoreToolAndArmor implements ModInitializer {
 
 		//Initialization Mod Groups
 		ModItemGroups.registerItemGroups();
+
+		ModDataComponentTypes.registerDataComponentTypes();
 	}
 }

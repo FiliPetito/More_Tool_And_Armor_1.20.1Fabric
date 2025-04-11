@@ -1,5 +1,6 @@
 package com.lykeon.datagen;
 
+import com.lykeon.MoreToolAndArmor;
 import com.lykeon.utils.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -16,7 +17,8 @@ public class ModBlockProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
-                .add(BlockTags.NEEDS_IRON_TOOL.id());
+        MoreToolAndArmor.LOGGER.info("ModBlockProvider" + MoreToolAndArmor.MOD_ID);
+        //getOrCreateTagBuilder(ModTags.Blocks.NEEDS_COPPER_TOOL)
+        //        .add(BlockTags.NEEDS_IRON_TOOL);
     }
 }
