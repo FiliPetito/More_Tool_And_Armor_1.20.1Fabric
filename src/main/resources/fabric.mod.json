@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "moretoolandarmor",
+	"version": "${version}",
+	"name": "More Tool and Armor",
+	"description": "Is a mod that adds new tools and armors to increase their uses!",
+	"authors": [
+		"Lykeon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/moretoolandarmor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lykeon.MoreToolAndArmor"
+		],
+		"fabric-datagen": [
+			"com.lykeon.MoreToolAndArmorDataGenerator"
+		],
+		"client" : [
+			"com.lykeon.MoreToolAndArmorClient"
+		]
+	},
+	"mixins": [
+		"moretoolandarmor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
