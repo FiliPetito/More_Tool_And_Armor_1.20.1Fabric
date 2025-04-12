@@ -1,6 +1,5 @@
-package com.lykeon.utils;
+package com.lykeon.utils.events;
 
-import com.lykeon.MoreToolAndArmor;
 import com.lykeon.item.custom.HammerItem;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
@@ -23,10 +22,6 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
                                     BlockState state, @Nullable BlockEntity blockEntity) {
         ItemStack mainHandItem = player.getMainHandStack();
-
-        if(mainHandItem.getItem() instanceof HammerItem hammer){
-            MoreToolAndArmor.LOGGER.info("Registering Item Groups for " + hammer + " " + MoreToolAndArmor.MOD_ID);
-        }
 
         if(mainHandItem.getItem() instanceof HammerItem hammer && player instanceof ServerPlayerEntity serverPlayer) {
             if(HARVESTED_BLOCKS.contains(pos)) {

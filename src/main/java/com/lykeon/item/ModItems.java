@@ -2,6 +2,7 @@ package com.lykeon.item;
 
 import com.lykeon.MoreToolAndArmor;
 import com.lykeon.item.custom.HammerItem;
+import com.lykeon.item.custom.TreeFellerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -32,6 +33,10 @@ public class ModItems {
 
     public static final Item COPPER_HAMMER = registerItem("copper_hammer",
             new HammerItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 7.0F, -3.8F))));
+
+    public static final Item COPPER_TREE_FALLER = registerItem("copper_tree_faller",
+            new TreeFellerItem(ModToolMaterials.COPPER, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 7.0F, -3.8F))));
 
 

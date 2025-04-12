@@ -32,5 +32,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COPPER_SHOVEL);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.COPPER_HAMMER);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.COPPER_TREE_FALLER);
     }
 }

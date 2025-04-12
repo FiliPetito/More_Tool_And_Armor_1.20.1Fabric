@@ -1,9 +1,10 @@
 package com.lykeon;
 
 import com.lykeon.component.ModDataComponentTypes;
-import com.lykeon.utils.HammerUsageEvent;
+import com.lykeon.utils.events.HammerUsageEvent;
 import com.lykeon.utils.ModItemGroups;
 import com.lykeon.item.ModItems;
+import com.lykeon.utils.events.TreeFallerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
@@ -31,5 +32,6 @@ public class MoreToolAndArmor implements ModInitializer {
 		ModDataComponentTypes.registerDataComponentTypes();
 
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
+		PlayerBlockBreakEvents.BEFORE.register(new TreeFallerUsageEvent());
 	}
 }
