@@ -1,8 +1,9 @@
 {
   "itemgroup.moretoolandarmor.iron_hammer" : "Più strumenti e armature",
-  "item.moretoolandarmor.copper_sword" : "Spada di Copper",
-  "item.moretoolandarmor.copper_axe" : "Ascia di Copper",
-  "item.moretoolandarmor.copper_hoe" :  "Zappa di Copper",
-  "item.moretoolandarmor.copper_shovel" : "Pala di Copper",
-  "item.moretoolandarmor.copper_pickaxe" :  "Piccone di Copper"
+  "item.moretoolandarmor.copper_sword" : "Spada di Rame",
+  "item.moretoolandarmor.copper_axe" : "Ascia di Rame",
+  "item.moretoolandarmor.copper_hoe" :  "Zappa di Rame",
+  "item.moretoolandarmor.copper_shovel" : "Pala di Rame",
+  "item.moretoolandarmor.copper_pickaxe" :  "Piccone di Rame",
+  "item.moretoolandarmor.copper_hammer" : "Martello di Rame"
 }

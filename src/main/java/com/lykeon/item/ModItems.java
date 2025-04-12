@@ -1,6 +1,7 @@
 package com.lykeon.item;
 
 import com.lykeon.MoreToolAndArmor;
+import com.lykeon.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -27,6 +28,11 @@ public class ModItems {
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterials.COPPER, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.COPPER, -2.0F, -1.0F))));
+
+
+    public static final Item COPPER_HAMMER = registerItem("copper_hammer",
+            new HammerItem(ModToolMaterials.COPPER, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 7.0F, -3.8F))));
 
 
     private static Item registerItem(String name, Item item){
