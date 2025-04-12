@@ -33,6 +33,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.COPPER_BLOCK), conditionsFromItem(Items.COPPER_BLOCK))
                 .offerTo(exporter);
 
+        //TODO : Aggiungere le varie recipes
+
 
     }
 }
