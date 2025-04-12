@@ -1,6 +1,9 @@
 package com.lykeon;
 
+import com.lykeon.block.ModBlocks;
+import com.lykeon.block.entity.ModBlockEntities;
 import com.lykeon.component.ModDataComponentTypes;
+import com.lykeon.screen.ModScreenHandlers;
 import com.lykeon.utils.events.HammerUsageEvent;
 import com.lykeon.utils.ModItemGroups;
 import com.lykeon.item.ModItems;
@@ -29,6 +32,11 @@ public class MoreToolAndArmor implements ModInitializer {
 
 		//Initialization Mod Groups
 		ModItemGroups.registerItemGroups();
+
+		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
+
+		ModScreenHandlers.registerScreenHandlers();
 
 		ModDataComponentTypes.registerDataComponentTypes();
 

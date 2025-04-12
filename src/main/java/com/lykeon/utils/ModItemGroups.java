@@ -1,6 +1,7 @@
 package com.lykeon.utils;
 
 import com.lykeon.MoreToolAndArmor;
+import com.lykeon.block.ModBlocks;
 import com.lykeon.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -35,6 +36,7 @@ public class ModItemGroups extends ItemGroups {
                         entries.add(ModItems.COPPER_HAMMER);
                         entries.add(ModItems.COPPER_TREE_FALLER);
                         entries.add(ModItems.COPPER_SICKLE);
+                        entries.add(ModBlocks.PEDESTAL);
 
                     }))
                     .build()
