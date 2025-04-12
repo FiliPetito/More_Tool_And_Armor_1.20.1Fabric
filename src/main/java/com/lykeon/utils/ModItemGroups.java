@@ -34,6 +34,7 @@ public class ModItemGroups extends ItemGroups {
                         entries.add(ModItems.COPPER_SWORD);
                         entries.add(ModItems.COPPER_HAMMER);
                         entries.add(ModItems.COPPER_TREE_FALLER);
+                        entries.add(ModItems.COPPER_SICKLE);
 
                     }))
                     .build()
