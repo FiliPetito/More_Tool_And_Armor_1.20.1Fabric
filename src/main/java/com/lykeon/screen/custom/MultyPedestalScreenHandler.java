@@ -29,6 +29,7 @@ public class MultyPedestalScreenHandler extends ScreenHandler {
             int y = 35;
             final int slotIndex = i;
             this.addSlot(new Slot(inventory, i, x, y) {
+                //Senza questo Override il metodo isValid non verrebbe chiamato perché viene sovrascritto
                 @Override
                 public boolean canInsert(ItemStack stack) {
                     return inventory.isValid(slotIndex, stack);
