@@ -1,6 +1,7 @@
 package com.lykeon.item;
 
 import com.lykeon.MoreToolAndArmor;
+import com.lykeon.item.custom.BackpackItem;
 import com.lykeon.item.custom.HammerItem;
 import com.lykeon.item.custom.SickleItem;
 import com.lykeon.item.custom.TreeFellerItem;
@@ -44,6 +45,12 @@ public class ModItems {
             new SickleItem(ModToolMaterials.COPPER, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.0F, -4F))));
 
+
+    public static final Item BACKPACK = Registry.register(
+            Registries.ITEM,
+            "backpack",
+            new BackpackItem()
+    );
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(MoreToolAndArmor.MOD_ID, name), item);
