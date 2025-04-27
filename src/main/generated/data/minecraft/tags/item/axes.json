@@ -1,6 +1,12 @@
 {
   "values": [
     "moretoolandarmor:copper_axe",
-    "moretoolandarmor:copper_tree_faller"
+    "moretoolandarmor:wood_tree_faller",
+    "moretoolandarmor:stone_tree_faller",
+    "moretoolandarmor:iron_tree_faller",
+    "moretoolandarmor:copper_tree_faller",
+    "moretoolandarmor:gold_tree_faller",
+    "moretoolandarmor:diamond_tree_faller",
+    "moretoolandarmor:netherite_tree_faller"
   ]
 }

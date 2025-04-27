@@ -5,5 +5,32 @@
   "item.moretoolandarmor.copper_hoe" :  "Zappa di Rame",
   "item.moretoolandarmor.copper_shovel" : "Pala di Rame",
   "item.moretoolandarmor.copper_pickaxe" :  "Piccone di Rame",
-  "item.moretoolandarmor.copper_hammer" : "Martello di Rame"
+
+  "item.moretoolandarmor.wood_hammer" : "Martello di Legno",
+  "item.moretoolandarmor.wood_tree_faller" : "Ascia Abbattitrice di Legno",
+  "item.moretoolandarmor.wood_sickle": "Falce di Legno",
+
+  "item.moretoolandarmor.stone_hammer" : "Martello di Pietra",
+  "item.moretoolandarmor.stone_tree_faller" : "Ascia Abbattitrice di Pietra",
+  "item.moretoolandarmor.stone_sickle": "Falce di Pietra",
+
+  "item.moretoolandarmor.iron_hammer" : "Martello di Ferro",
+  "item.moretoolandarmor.iron_tree_faller" : "Ascia Abbattitrice di Ferro",
+  "item.moretoolandarmor.iron_sickle": "Falce di Ferro",
+
+  "item.moretoolandarmor.copper_hammer" : "Martello di Rame",
+  "item.moretoolandarmor.copper_tree_faller" : "Ascia Abbattitrice di Rame",
+  "item.moretoolandarmor.copper_sickle": "Falce di Rame",
+
+  "item.moretoolandarmor.gold_hammer" : "Martello d'Oro",
+  "item.moretoolandarmor.gold_tree_faller" : "Ascia Abbattitrice d'Oro",
+  "item.moretoolandarmor.gold_sickle": "Falce d'Oro",
+
+  "item.moretoolandarmor.diamond_hammer" : "Martello di Diamante",
+  "item.moretoolandarmor.diamond_tree_faller" : "Ascia Abbattitrice di Diamante",
+  "item.moretoolandarmor.diamond_sickle": "Falce di Diamante",
+
+  "item.moretoolandarmor.netherite_hammer" : "Martello di Netherite",
+  "item.moretoolandarmor.netherite_tree_faller" : "Ascia Abbattitrice di Netherite",
+  "item.moretoolandarmor.netherite_sickle": "Falce di Netherite"
 }

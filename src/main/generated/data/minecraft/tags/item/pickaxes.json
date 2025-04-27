@@ -1,6 +1,18 @@
 {
   "values": [
     "moretoolandarmor:copper_pickaxe",
-    "moretoolandarmor:copper_hammer"
+    "moretoolandarmor:wood_hammer",
+    "moretoolandarmor:stone_hammer",
+    "moretoolandarmor:iron_hammer",
+    "moretoolandarmor:copper_hammer",
+    "moretoolandarmor:gold_hammer",
+    "moretoolandarmor:diamond_hammer",
+    "moretoolandarmor:netherite_hammer",
+    "moretoolandarmor:stone_sickle",
+    "moretoolandarmor:iron_sickle",
+    "moretoolandarmor:copper_sickle",
+    "moretoolandarmor:gold_sickle",
+    "moretoolandarmor:diamond_sickle",
+    "moretoolandarmor:netherite_sickle"
   ]
 }

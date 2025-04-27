@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "pattern": [
+    "RR ",
+    "R# ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "moretoolandarmor:netherite_tree_faller"
+  }
+}

@@ -1,6 +1,6 @@
-// 1.21.1	2025-04-27T14:41:31.0035551	More Tool and Armor/Tags for minecraft:item
-337845c3d6b1f8d51348e70b9e7498810c03371d data\minecraft\tags\item\pickaxes.json
-f0d76fd293292d7f5174fc2815cea19f742aa84d data\minecraft\tags\item\axes.json
+// 1.21.1	2025-04-27T17:05:18.7309181	More Tool and Armor/Tags for minecraft:item
+822d5a1d67547b113b0a04f51d8df2aae27375c9 data\minecraft\tags\item\pickaxes.json
+58304d0df016d70312d16e3f21498f4c4881cd63 data\minecraft\tags\item\axes.json
 f4130feac3056245056c3dcbfe21023b4854eac2 data\minecraft\tags\item\swords.json
 8a89e22b19603bf88a0312f72ab95a037d039852 data\minecraft\tags\item\shovels.json
-f2b0706d1992f528054e565fe076bc7c63aa2870 data\minecraft\tags\item\hoes.json
+c70ec020ce4acaf5448f8eb46eda0e0d0046d78f data\minecraft\tags\item\hoes.json

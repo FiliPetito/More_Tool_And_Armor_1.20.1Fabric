@@ -30,11 +30,54 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.COPPER_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS)
                 .add(ModItems.COPPER_SHOVEL);
+
+
+        //HAMMER
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.WOOD_HAMMER);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.STONE_HAMMER);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.IRON_HAMMER);
         getOrCreateTagBuilder(ItemTags.PICKAXES)
                 .add(ModItems.COPPER_HAMMER);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.GOLD_HAMMER);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.DIAMOND_HAMMER);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.NETHERITE_HAMMER);
+
+        //SICKLE
+        getOrCreateTagBuilder(ItemTags.HOES)
+                .add(ModItems.WOOD_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.STONE_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.IRON_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.COPPER_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.GOLD_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.DIAMOND_SICKLE);
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.NETHERITE_SICKLE);
+
+        //TREE FALLER
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.WOOD_TREE_FALLER);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.STONE_TREE_FALLER);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.IRON_TREE_FALLER);
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.COPPER_TREE_FALLER);
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.COPPER_SICKLE);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.GOLD_TREE_FALLER);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.DIAMOND_TREE_FALLER);
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.NETHERITE_TREE_FALLER);
     }
 }

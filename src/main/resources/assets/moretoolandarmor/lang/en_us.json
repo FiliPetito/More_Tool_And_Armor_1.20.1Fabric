@@ -5,6 +5,33 @@
   "item.moretoolandarmor.copper_hoe" :  "Copper Hoe",
   "item.moretoolandarmor.copper_shovel" : "Copper Shovel",
   "item.moretoolandarmor.copper_pickaxe" :  "Copper Pickaxe",
-  "item.moretoolandarmor.copper_hammer" : "Copper Hammer"
 
+
+  "item.moretoolandarmor.wood_hammer" : "Wooden Hammer",
+  "item.moretoolandarmor.wood_tree_faller" : "Wooden Tree Faller",
+  "item.moretoolandarmor.wood_sickle": "Wooden Sickle",
+
+  "item.moretoolandarmor.stone_hammer" : "Stone Hammer",
+  "item.moretoolandarmor.stone_tree_faller" : "Stone Tree Faller",
+  "item.moretoolandarmor.stone_sickle": "Stone Sickle",
+
+  "item.moretoolandarmor.iron_hammer" : "Iron Hammer",
+  "item.moretoolandarmor.iron_tree_faller" : "Iron Tree Faller",
+  "item.moretoolandarmor.iron_sickle": "Iron Sickle",
+
+  "item.moretoolandarmor.copper_hammer" : "Copper Hammer",
+  "item.moretoolandarmor.copper_tree_faller" : "Copper Tree Faller",
+  "item.moretoolandarmor.copper_sickle": "Copper Sickle",
+
+  "item.moretoolandarmor.gold_hammer" : "Golden Hammer",
+  "item.moretoolandarmor.gold_tree_faller" : "Golden Tree Faller",
+  "item.moretoolandarmor.gold_sickle": "Golden Sickle",
+
+  "item.moretoolandarmor.diamond_hammer" : "Diamond Hammer",
+  "item.moretoolandarmor.diamond_tree_faller" : "Diamond Tree Faller",
+  "item.moretoolandarmor.diamond_sickle": "Diamond Sickle",
+
+  "item.moretoolandarmor.netherite_hammer" : "Netherite Hammer",
+  "item.moretoolandarmor.netherite_tree_faller" : "Netherite Tree Faller",
+  "item.moretoolandarmor.netherite_sickle": "Netherite Sickle"
 }
