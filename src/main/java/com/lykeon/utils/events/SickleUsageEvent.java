@@ -17,6 +17,11 @@ public class SickleUsageEvent  implements PlayerBlockBreakEvents.Before {
     public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, @Nullable BlockEntity blockEntity) {
         if (world.isClient) return true;
 
+        if(player.isCreative()){
+            world.breakBlock(pos, false);
+            return true;
+        }
+
         ItemStack mainHandItem = player.getMainHandStack();
 
         if (mainHandItem.getItem() instanceof SickleItem sickle) {

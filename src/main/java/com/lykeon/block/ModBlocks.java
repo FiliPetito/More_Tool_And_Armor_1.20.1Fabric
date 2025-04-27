@@ -1,6 +1,7 @@
 package com.lykeon.block;
 
 import com.lykeon.MoreToolAndArmor;
+import com.lykeon.block.custom.MultyPedestalBlock;
 import com.lykeon.block.custom.PedestalBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -16,7 +17,8 @@ public class ModBlocks {
     public static final Block PEDESTAL = registerBlock("pedestal",
             new PedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
-
+    public static final Block MULTY_PEDESTAL =  registerBlock("multy_pedestal",
+            new MultyPedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(MoreToolAndArmor.MOD_ID, name), block);

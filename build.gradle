@@ -16,6 +16,18 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+
+	maven {
+		name = "Ladysnake"
+		url = uri("https://maven.ladysnake.org/releases")
+	}
+	mavenCentral()
+	maven { url = "https://maven.fabricmc.net/" }
+
+	maven {
+		name = "OnyxStudios"
+		url = uri("https://maven.ladysnake.org/releases")
+	}
 }
 
 fabricApi {
@@ -33,6 +45,10 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	//modImplementation "net.fabricmc.fabric-api:fabric-api:0.91.2+1.20.1" // assicurati di usare la versione giusta
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:6.1.2"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-item:6.1.2"
+
 }
 
 processResources {
@@ -40,6 +56,15 @@ processResources {
 
 	filesMatching("fabric.mod.json") {
 		expand "version": inputs.properties.version
+	}
+
+	duplicatesStrategy = DuplicatesStrategy.WARN // Mostra un warning invece di fallire
+	includeEmptyDirs = false
+
+	// Log dettagliato di tutti i file processati
+	doFirst {
+		println "Processing resources from:"
+		source.each { println "- ${it}" }
 	}
 }
 

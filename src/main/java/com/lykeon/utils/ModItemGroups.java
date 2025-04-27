@@ -37,6 +37,8 @@ public class ModItemGroups extends ItemGroups {
                         entries.add(ModItems.COPPER_TREE_FALLER);
                         entries.add(ModItems.COPPER_SICKLE);
                         entries.add(ModBlocks.PEDESTAL);
+                        entries.add(ModBlocks.MULTY_PEDESTAL);
+                        entries.add(ModItems.BACKPACK);
 
                     }))
                     .build()
