@@ -57,6 +57,15 @@ processResources {
 	filesMatching("fabric.mod.json") {
 		expand "version": inputs.properties.version
 	}
+
+	duplicatesStrategy = DuplicatesStrategy.WARN // Mostra un warning invece di fallire
+	includeEmptyDirs = false
+
+	// Log dettagliato di tutti i file processati
+	doFirst {
+		println "Processing resources from:"
+		source.each { println "- ${it}" }
+	}
 }
 
 tasks.withType(JavaCompile).configureEach {

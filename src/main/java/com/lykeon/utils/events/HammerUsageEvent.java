@@ -23,6 +23,11 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before{
                                     BlockState state, @Nullable BlockEntity blockEntity) {
         ItemStack mainHandItem = player.getMainHandStack();
 
+        if(player.isCreative()){
+            world.breakBlock(pos, false);
+            return true;
+        }
+
         if(mainHandItem.getItem() instanceof HammerItem hammer && player instanceof ServerPlayerEntity serverPlayer) {
             if(HARVESTED_BLOCKS.contains(pos)) {
                 return true;

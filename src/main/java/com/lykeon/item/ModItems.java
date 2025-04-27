@@ -43,7 +43,7 @@ public class ModItems {
 
     public static final Item COPPER_SICKLE = registerItem("copper_sickle",
             new SickleItem(ModToolMaterials.COPPER, new Item.Settings()
-                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.0F, -4F))));
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.COPPER, 1.0F, -1.0F))));
 
 
     public static final Item BACKPACK = Registry.register(

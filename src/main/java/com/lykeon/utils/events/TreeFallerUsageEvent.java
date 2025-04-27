@@ -26,6 +26,11 @@ public class TreeFallerUsageEvent implements PlayerBlockBreakEvents.Before{
 
         ItemStack mainHandItem = player.getMainHandStack();
 
+        if(player.isCreative()){
+            world.breakBlock(pos, false);
+            return true;
+        }
+
         if (mainHandItem.getItem() instanceof TreeFellerItem && player instanceof ServerPlayerEntity serverPlayer) {
             if (HARVESTED_BLOCKS.contains(pos) || !state.isIn(BlockTags.LOGS)) {
                 return true;
