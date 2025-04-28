@@ -2,12 +2,14 @@ package com.lykeon.item.custom;
 
 import com.lykeon.utils.ModTags;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
@@ -25,6 +27,13 @@ public class SickleItem extends MiningToolItem {
         Random random = new Random();
 
         BlockPos playerDropPos = player.getBlockPos(); // dove far spawnare gli oggetti
+        BlockState fState = world.getBlockState(center);
+
+        if(!isGrass(fState) && !fState.isToolRequired()){
+            world.breakBlock(center, true);
+        }else{
+            world.breakBlock(center, false);
+        }
 
         // Scansiona 5x5 attorno al blocco colpito
         for (int x = -2; x <= 2; x++) {
