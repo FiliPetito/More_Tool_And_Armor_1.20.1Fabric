@@ -47,6 +47,53 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         otherTreeFaller.forEach((hammer, material) ->
                 createTreeFallerRecipe(hammer, material, exporter)
         );
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_SWORD)
+                .pattern(" R ")
+                .pattern(" R ")
+                .pattern(" # ")
+                .input('R', Items.COPPER_INGOT)
+                .input('#',  Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_SHOVEL)
+                .pattern(" R ")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('R', Items.COPPER_INGOT)
+                .input('#',  Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_PICKAXE)
+                .pattern("RRR")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('R', Items.COPPER_INGOT)
+                .input('#',  Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_AXE)
+                .pattern("RR ")
+                .pattern("R# ")
+                .pattern(" # ")
+                .input('R', Items.COPPER_INGOT)
+                .input('#',  Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COPPER_HOE)
+                .pattern(" RR")
+                .pattern(" # ")
+                .pattern(" # ")
+                .input('R', Items.COPPER_INGOT)
+                .input('#',  Items.STICK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .offerTo(exporter);
+
     }
 
 
